@@ -1,47 +1,41 @@
 <img width="2824" height="664" alt="New Project" src="https://github.com/user-attachments/assets/f16ed4e9-8ba4-4bb7-b25b-78dcfcdab02f" />
 
-# Adan Tray 🕌
+# PrayTray 🕌
 
-**Adan Tray** هو تطبيق خفيف وسريع لنظام ويندوز يعمل في شريط المهام (System Tray) لعرض أوقات الصلاة المتبقية وتنبيهك عند دخول وقت الصلاة.
+**PrayTray** is a lightweight and fast Windows system tray application that displays the remaining time for the next prayer and notifies you when it's time to pray.
 
-## ✨ المميزات
+## ✨ Features
 
-*   **أيقونة ديناميكية**: تعرض أيقونة شريط المهام الوقت المتبقي للصلاة القادمة وتتحدث كل دقيقة.
-*   **تنبيهات سطح المكتب**:
-    *   إشعار عند دخول وقت الصلاة.
-    *   تنبيه قبل موعد الصلاة بـ 5 دقائق.
-*   **قائمة الأوقات**: نافذة منبثقة تعرض جدول أوقات الصلاة لليوم الحالي.
-*   **الإعدادات**: إمكانية تغيير المدينة، الدولة، وطريقة الحساب (Method).
-*   **وضع الأوفلاين**: يحفظ التطبيق البيانات محلياً للعمل عند انقطاع الإنترنت.
-*   **تحديث تلقائي**: يقوم التطبيق بتحديث البيانات تلقائياً من الإنترنت.
+*   **Dynamic Tray Icon**: The system tray icon updates every minute to show the remaining time until the next prayer.
+*   **Desktop Notifications**:
+    *   Notification when prayer time arrives.
+    *   Pre-prayer warning 5 minutes before the time.
+*   **Prayer Schedule**: A popup window displaying the full prayer schedule for the current day.
+*   **Settings**: Customizable location (City, Country) and Calculation Method.
+*   **Offline Mode**: Caches data locally to work without an internet connection.
+*   **Auto-Update**: Automatically refreshes prayer times from the Internet.
 
-## 🛠️ التقنيات المستخدمة
+## 🛠️ Technology Stack
 
-*   **C# / .NET**: لغة البرمجة الأساسية.
-*   **Windows Forms**: لبناء الواجهة والتعامل مع شريط المهام.
-*   **Aladhan API**: المصدر المستخدم لجلب مواقيت الصلاة بدقة لأي مكان في العالم.
-*   **Inno Setup**: لإنشاء ملف التثبيت.
+*   **C# / .NET**: Core logic and runtime.
+*   **Windows Forms**: Native Windows UI and System Tray integration.
+*   **Aladhan API**: Accurate global prayer times source.
+*   **Inno Setup**: Installer generation.
 
-## 📥 التثبيت
+## 📥 Installation
 
-1.  قم بتحميل أحدث إصدار من صفحة [Releases](../../releases).
-2.  قم بتشغيل ملف التثبيت `setup.exe`.
-3.  سيعمل التطبيق تلقائياً بعد التثبيت وسيظهر في شريط المهام بجانب الساعة.
-4.  اضغط بزر الفأرة الأيمن على الأيقونة واختر **Settings** لضبط موقعك.
+1.  Download the latest installer from the [Releases](../../releases) page.
+2.  Run `setup.exe`.
+3.  The application will launch automatically and reside in your system tray.
+4.  Right-click the tray icon and select **Settings** to configure your location.
 
-## 🖥️ صور من التطبيق
+## 🤝 Contribution
 
-| قائمة الصلوات | الإعدادات |
-|:---:|:---:|
-| ![Prayer List](screenshots/list.png) | ![Settings](screenshots/settings.png) |
+Contributions are welcome! If you have suggestions or find bugs, please open an [Issue](../../issues) or submit a Pull Request.
 
-## 🤝 المساهمة
+## 📄 License
 
-نرحب بالمساهمات! إذا كان لديك اقتراح أو وجدت خطأ، لا تتردد في فتح [Issue](../../issues) أو إرسال Pull Request.
-
-## 📄 الترخيص
-
-هذا المشروع مفتوح المصدر ومتاح تحت رخصة [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
-تم التطوير باستخدام ❤️ و C#.
+Developed with ❤️ using .NET
